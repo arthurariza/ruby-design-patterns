@@ -1,7 +1,6 @@
 require_relative 'formater'
 
-class PlainTextFormater
-  include Formater
+class PlainTextFormater < Formater
 
   def output_report(title, text)
     puts("*******#{title}*******")

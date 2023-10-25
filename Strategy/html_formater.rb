@@ -1,7 +1,6 @@
 require_relative 'formater'
 
-class HTMLFormater
-  include Formater
+class HTMLFormater < Formater
 
   def output_report(title, text)
     puts('<html>')
