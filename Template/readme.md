@@ -6,6 +6,8 @@ Non-abstract methods that can be overridden in the concrete classes of the Templ
 
 **Sometimes, however, the default implementation of a hook method may actually contain some code.**
 
+>The Template Pattern is based on *inheritance*
+
 ### Wrapping Up
 
 The Template Method pattern is simply a fancy way of saying that if you want to vary an algorithm, one way to do so is to code the invariant part in a base class and to encapsulate the variable parts in methods that are defined by a number of subclasses. The base class can simply leave the methods completely undefined—in that case, the subclasses must supply the methods. Alternatively, the base class can provide a default implementation for the methods that the subclasses can override if they want.
