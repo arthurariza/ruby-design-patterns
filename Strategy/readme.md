@@ -14,3 +14,6 @@ Strategy is a lump of executable code that knows how to do something and is wrap
 Proc is a chunk of code wrapped in an object.
 
 Procs and Blocks can be use to implement the Strategy Pattern without the need to define special classes, create a strategy out of thin air by passing a code block right into the method but it only works when the strategy interface is a simple, one-method affair.
+
+## Class Diagram
+![Class Diagram](./class_diagram.jpg)

@@ -12,3 +12,6 @@ https://ruby-doc.org/stdlib-3.0.0/libdoc/observer/rdoc/Observable.html
 
 the Observer pattern and the Strategy pattern look a bit alike: Both feature an object (called the observable in the Observer pattern and the context in the Strategy pattern) that makes calls out to some other object (either the observer or the strategy). The difference is mostly one of intent. In the case of the observer, we are informing the other object of the events occurring back at the observable.
 In the case of the strategy, we are getting the strategy object to do some computing.
+
+## Class Diagram
+![Class Diagram](./class_diagram.jpg)
